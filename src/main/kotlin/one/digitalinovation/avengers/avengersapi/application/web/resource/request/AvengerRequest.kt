@@ -15,9 +15,8 @@ data class AvengerRequest(
     @field:NotBlank
     @field:NotEmpty
  val person: String,
-    val id: Long,
- val description: String? = "",
- val history: String? = ""
+ val description: String?,
+ val history: String?
  ) {
     fun toAvenger() = Avenger(
         nick = nick,

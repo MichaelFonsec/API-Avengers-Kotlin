@@ -62,6 +62,4 @@ class AvengerResource(
             ResponseEntity.accepted().build<Void>()
         }
 
-
-
 }
